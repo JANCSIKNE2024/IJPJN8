@@ -1,0 +1,42 @@
+GitHub Használatának Fontos Parancsai
+Helyi Parancsok
+git init
+
+Új Git tároló indítása a számítógépen.
+git clone [repository URL]
+
+Egy meglévő projekt letöltése a számítógépre.
+git add [fájlok]
+
+Fájlok hozzáadása, hogy készen álljanak a mentésre.
+git commit -m "[üzenet]"
+
+A változtatások mentése, és egy rövid üzenet írása a mentéshez.
+git status
+
+Megnézni, hogy milyen fájlok változtak.
+git log
+
+A korábbi mentések listájának megtekintése.
+Távollévő Parancsok
+git remote add origin [repository URL]
+
+A távoli projekt hozzáadása a számítógéphez.
+git push origin [branch]
+
+A számítógépen végzett változtatások feltöltése a távoli projektre.
+git pull origin [branch]
+
+A távoli projektről a legfrissebb változtatások letöltése.
+git fetch
+
+A távoli projekt új változásainak letöltése, de nem integrálja azokat azonnal.
+git branch
+
+A meglévő ágak listázása, vagy új ág létrehozása.
+git checkout [branch]
+
+Átváltás egy másik ágra a projekten belül.
+Hasznos Linkek
+Git letöltés: git-scm.com vagy gitforwindows.org
+GitHub fiók regisztrálása: github.com
