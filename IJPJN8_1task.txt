@@ -1,5 +1,7 @@
 GitHub Használatának Fontos Parancsai
-Helyi Parancsok
+
+
+--- Helyi Parancsok
 git init
 
 Új Git tároló indítása a számítógépen.
@@ -18,7 +20,9 @@ Megnézni, hogy milyen fájlok változtak.
 git log
 
 A korábbi mentések listájának megtekintése.
-Távollévő Parancsok
+
+
+-----Távollévő Parancsok
 git remote add origin [repository URL]
 
 A távoli projekt hozzáadása a számítógéphez.
@@ -37,6 +41,3 @@ A meglévő ágak listázása, vagy új ág létrehozása.
 git checkout [branch]
 
 Átváltás egy másik ágra a projekten belül.
-Hasznos Linkek
-Git letöltés: git-scm.com vagy gitforwindows.org
-GitHub fiók regisztrálása: github.com
